@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Text Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Smart Text Summarizer</h1>
+    <label>
+      <input type="checkbox" id="modeToggle" />
+      Enable Publisher Assistant Mode
+    </label>
+
+    <textarea id="inputText" placeholder="Paste your article, blog, or paper here..."></textarea>
+    <div class="btns">
+      <button onclick="generateSummary()">Generate Summary</button>
+      <button onclick="generateBulletPoints()">Bullet Points</button>
+      <button onclick="askAssistant()">Ask Assistant</button>
+    </div>
+
+    <div id="outputSection">
+      <h2>📝 Output:</h2>
+      <div id="outputContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
