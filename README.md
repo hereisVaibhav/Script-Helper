@@ -1,3 +1,3 @@
 # Script-Helper
 
-In this application, you can just upload or paste any long content or text you have, and it will give you it's full summary
+In this application, you can just upload or paste any long content or text you have, and it will give you it's full summary..........
